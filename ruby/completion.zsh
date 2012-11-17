@@ -1,22 +1,25 @@
+# Commenting this out for now since not using rbenv
+
 # Stolen from
 #   https://github.com/sstephenson/rbenv/blob/master/completions/rbenv.zsh
 
-if [[ ! -o interactive ]]; then
-    return
-fi
 
-compctl -K _rbenv rbenv
+# if [[ ! -o interactive ]]; then
+#     return
+# fi
 
-_rbenv() {
-  local word words completions
-  read -cA words
-  word="${words[2]}"
+# compctl -K _rbenv rbenv
 
-  if [ "${#words}" -eq 2 ]; then
-    completions="$(rbenv commands)"
-  else
-    completions="$(rbenv completions "${word}")"
-  fi
+# _rbenv() {
+#   local word words completions
+#   read -cA words
+#   word="${words[2]}"
 
-  reply=("${(ps:\n:)completions}")
-}
+#   if [ "${#words}" -eq 2 ]; then
+#     completions="$(rbenv commands)"
+#   else
+#     completions="$(rbenv completions "${word}")"
+#   fi
+
+#   reply=("${(ps:\n:)completions}")
+# }

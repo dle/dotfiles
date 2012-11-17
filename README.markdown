@@ -1,3 +1,8 @@
+# dle's dotfiles
+This is a fork of [holman/dotfiles](https://github.com/holman/dotfiles)
+
+Text from his README below.
+
 # holman does dotfiles
 
 ## dotfiles
