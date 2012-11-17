@@ -1,0 +1,14 @@
+#!/bin/zsh
+
+packages=(
+  zsh
+  grc
+  coreutils
+  tree
+  zsh-completions
+  )
+
+for p in $packages
+do
+brew install $p
+done
