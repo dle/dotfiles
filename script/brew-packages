@@ -5,6 +5,7 @@ packages=(
   grc
   coreutils
   tree
+  bash-completion
   zsh-completions
   )
 
