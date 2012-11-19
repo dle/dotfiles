@@ -74,7 +74,7 @@ directory_name(){
 
 # username@firstname of host
 user_host_name(){
-  echo "%{$fg_bold[white]%}%n%{$reset_color%}@%{$fg_bold[white]%}%m%{$reset_color%}"
+  echo "%{$fg_bold[white]%}%n%{$reset_color%}@%{$fg_bold[yellow]%}%m%{$reset_color%}"
 }
 
 export PROMPT=$'\n$(user_host_name)$(rb_prompt) in $(directory_name) $(git_dirty)$(need_push)\n› '
