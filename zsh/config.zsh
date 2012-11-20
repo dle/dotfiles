@@ -18,6 +18,7 @@ SAVEHIST=10000
 setopt NO_BG_NICE # don't nice background tasks
 setopt NO_HUP
 setopt NO_LIST_BEEP
+setopt NO_BEEP
 setopt LOCAL_OPTIONS # allow functions to have local options
 setopt LOCAL_TRAPS # allow functions to have local traps
 setopt HIST_VERIFY
