@@ -1,0 +1,6 @@
+{ 
+	"sublimelinter_executable_map":
+	{
+    	"ruby": "/Users/donle/.rvm/bin/rvm-auto-ruby"
+    }
+}
