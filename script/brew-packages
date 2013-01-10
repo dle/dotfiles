@@ -7,6 +7,7 @@ packages=(
   tree
   bash-completion
   zsh-completions
+  python
   )
 
 for p in $packages
