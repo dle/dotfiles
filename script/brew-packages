@@ -8,6 +8,7 @@ packages=(
   bash-completion
   zsh-completions
   python
+  awscli
   )
 
 for p in $packages

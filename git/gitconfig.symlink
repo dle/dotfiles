@@ -6,7 +6,7 @@
         protocol = https
 [user]
         name = Don Le
-        email = don@tenacitysports.com
+        email = don@gametiime.com
 [credential]
         helper = osxkeychain
 [alias]
@@ -22,7 +22,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = emacs
+	editor = emacs -nw
 [apply]
         whitespace = nowarn
 [mergetool]
