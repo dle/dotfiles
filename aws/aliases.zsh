@@ -1,0 +1,1 @@
+alias sshec2='ssh -i $EC2_PEM_KEY -l $EC2_USERNAME'
